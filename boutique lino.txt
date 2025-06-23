@@ -1,0 +1,118 @@
+index <html></html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Boutique LINO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur la Mini Boutique LINO</h1>
+        <p>Découvrez nos produits de qualité à prix accessibles !</p>
+        <img src="https://via.placeholder.com/800x200?text=Bienvenue+chez+LINO" alt="Bannière de la boutique">
+    </header>
+
+    <section id="presentation">
+        <h2>À propos de la boutique</h2>
+        <p>
+            Nous vendons des articles artisanaux, vêtements, accessoires et objets utiles. Livraison rapide et paiement sécurisé.
+        </p>
+    </section>
+
+    <section id="produits-section">
+        <h2>Nos produits</h2>
+        <div id="produits"></div>
+    </section>
+
+    <section id="panier-section">
+        <h2>Votre panier</h2>
+        <ul id="panier"></ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mini Boutique LINO - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+#produits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produit {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.produit img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    margin-top: 30px;
+}
